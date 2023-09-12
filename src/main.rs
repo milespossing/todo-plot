@@ -2,7 +2,7 @@ use chrono::{DateTime, Local, NaiveDateTime};
 use clap::Parser;
 use rgb::RGB8;
 use std::str::FromStr;
-use textplots::{AxisBuilder, Chart, ColorPlot, LabelBuilder, LabelFormat, LineStyle, Shape};
+use textplots::{Chart, ColorPlot, LabelBuilder, LabelFormat, Shape};
 
 #[derive(Parser)]
 struct Cli {
