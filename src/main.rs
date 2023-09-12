@@ -73,6 +73,6 @@ fn main() {
         .x_axis_style(LineStyle::None)
         .y_axis_style(LineStyle::None)
         .x_label_format(LabelFormat::None)
-        .y_label_format(LabelFormat::None)
+        // .y_label_format(LabelFormat::None)
         .display();
 }
