@@ -70,8 +70,8 @@ fn main() {
     Chart::new(180, 60, -10f32, max + 10f32)
         .linecolorplot(&Shape::Lines(&completed), green)
         .linecolorplot(&Shape::Lines(&open), red)
-        .x_axis_style(LineStyle::None)
-        .y_axis_style(LineStyle::None)
+        // .x_axis_style(LineStyle::None)
+        // .y_axis_style(LineStyle::None)
         .x_label_format(LabelFormat::None)
         // .y_label_format(LabelFormat::None)
         .display();
